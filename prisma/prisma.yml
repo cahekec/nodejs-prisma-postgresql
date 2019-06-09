@@ -1,6 +1,6 @@
 endpoint: ${env:PRISMA_ENDPOINT}
 datamodel: datamodel.prisma
-secret: yvonpuforgjliosr
+secret: ${env:PRISMA_SECRET}
 
 hooks:
   post-deploy:
